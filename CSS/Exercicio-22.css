@@ -1,0 +1,45 @@
+.sla {
+    background-color: rgb(88, 0, 88);
+    height: 100vh;
+    font-size: 2rem;
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+        "header header header header"
+        "aside main main main"
+        "aside main main main"
+        "rodolfinho rodolfinho rodolfinho rodolfinho"
+        "tabela tabel tabel tabel"
+        "tabela tabel tabel tabel";
+    gap: 5px;
+}
+
+.box1 {
+    grid-area: header;
+    background-color: brown;
+}
+
+.box2 {
+    grid-area: aside;
+    background-color: aqua;
+}
+
+.box3 {
+    grid-area: main;
+    background-color: black;
+}
+
+.box4 {
+    grid-area: rodolfinho;
+    background-color: blueviolet;
+}
+.box5 {
+    grid-area: tabela;
+    background-color: blue;
+}
+.box6 {
+    grid-area: tabel;
+    background-color: chocolate;
+}

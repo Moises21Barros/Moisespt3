@@ -1,0 +1,36 @@
+/* p::after{
+    content: " Bolo";
+}
+p::before{
+    content: "Pão ";
+} */
+/* p::first-letter{
+    color: blue;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+/* main > div > ul > li > a{
+    color: green;
+} */
+/* .container{
+    background-color: silver;
+    border: 1px solid;
+    text-align: justify;
+    overflow: auto;
+    padding: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: inline-block;
+} */
+/* img{
+    float: left;
+    margin-right: 300px;
+} */
+/* p{
+    padding: 50px 300px;
+} *

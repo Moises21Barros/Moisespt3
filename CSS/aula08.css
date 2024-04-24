@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor-primary:#481478;
+    --cor-secondary:#7b85c9;
+    --cor-tertiary:#354e55;
+}
+body{
+    background-color: rgb(208, 208, 164);
+}
+h1{
+    color: var(--cor-tertiary);
+}
+p{
+    color: var(--cor-secondary);
+}

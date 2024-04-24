@@ -1,0 +1,60 @@
+nav{
+    background-color: #7d0d0d;
+    height: 10vh;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 2em;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    padding: 0 40px;
+    color: ;
+} 
+input:focus{
+    background-color: cyan;
+    color: gold;
+}  
+p > a:active{
+    text-decoration: none;
+    color: brown;
+}
+nav>a:hover {
+
+    color: #000000;
+
+    background-color: white;
+
+}
+
+input:focus {
+
+    background-color: silver;
+
+    color: black;
+
+}
+
+a:active {
+
+    text-decoration: none;
+
+    color: black;
+
+    font-size: 2em;
+
+}
+
+a:visited {
+
+    font-size: 1.5em;
+
+    color: blue;
+}
